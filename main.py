@@ -71,7 +71,7 @@ STICKER = [
       STKR,
 ]
 START = f"""
-**๏ Hie Baby🐒 ๏**
+**๏ Hie Baby ๏**
 """
 
 @bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
@@ -82,7 +82,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝..✓")
     await asyncio.sleep(0.2)
-    await accha.edit("🥵𝙽𝙾𝚆 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 👉 @TG_FRIENDSS🥀 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙶𝙸𝚁𝙻𝙵𝚁𝙸𝙴𝙽𝙳🌹")
+    await accha.edit("Enjoy now")
          
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
